@@ -30,7 +30,7 @@ use warnings;
 use Moose;
 use SVG;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 =head1 ATTRIBUTES AND METHODS
 

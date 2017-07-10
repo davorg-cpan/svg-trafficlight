@@ -1,5 +1,12 @@
 # Change Log
- 
+
+## [0.0.2] - 2017-07-10
+
+### Fixed
+
+- Added abstract to DESCRIPTION (thanks manwar)
+- Added .travis.yml
+
 ## [0.0.1] - 2017-07-10
  
 ### Added
