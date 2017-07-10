@@ -9,6 +9,7 @@ WriteMakefile(
 
   PREREQ_PM    => {
     SVG        => 0,
+    Moose      => 0,
     Test::Deep => 0,
   },
 
