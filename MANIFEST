@@ -1,0 +1,9 @@
+bin/traffic_light
+lib/SVG/TrafficLight.pm
+Makefile.PL
+MANIFEST
+sample/tl.svg
+t/01-load.t
+t/02-defaults.t
+t/pod-coverage.t
+t/pod.t

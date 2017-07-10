@@ -30,6 +30,8 @@ use warnings;
 use Moose;
 use SVG;
 
+our $VERSION = '0.0.1';
+
 =head1 ATTRIBUTES AND METHODS
 
 =head2 radius()
