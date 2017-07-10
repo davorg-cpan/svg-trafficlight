@@ -1,6 +1,6 @@
 =head1 NAME
 
-SVG::TrafficLight
+SVG::TrafficLight - Perl extension to produce SVG diagrams of traffic lights.
 
 =head1 DESCRIPTION
 
