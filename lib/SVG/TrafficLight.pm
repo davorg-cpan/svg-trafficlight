@@ -24,9 +24,6 @@ Perl extension to produce SVG diagrams of traffic lights.
 
 package SVG::TrafficLight;
 
-use strict;
-use warnings;
-
 use Moose;
 use SVG;
 
