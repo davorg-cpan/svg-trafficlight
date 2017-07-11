@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.3] - 2017-07-11
+
+### Fixed
+
+- Added Moose to list of dependencies (thanks manwar)
+
 ## [0.0.2] - 2017-07-10
 
 ### Fixed
