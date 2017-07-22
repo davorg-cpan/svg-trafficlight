@@ -1,8 +1,14 @@
 # Change Log
 
-## [0.1.0] - 2017-07-11
+## [0.1.1] - 2017-07-22
 
-## Fixed
+### Added
+
+- Added README.md (actually added in previous release, but now I've added it to the MANIFEST so it will be included in the distribution) 
+
+## [0.1.0] - 2017-07-22
+
+### Fixed
 
 - Simplified internals
 - Bumped minor version number (as it looks pretty stable)
