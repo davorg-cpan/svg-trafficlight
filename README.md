@@ -2,15 +2,13 @@
 
 Perl module for drawing traffic lights using SVG
 
-[![Build Status](https://travis-ci.org/davorg/svg-trafficlight.svg?branch=master)](https://travis-ci.org/davorg/svg-trafficlight)
-
-[![Coverage Status](https://coveralls.io/repos/github/davorg/svg-trafficlight/badge.svg?branch=master)](https://coveralls.io/github/davorg/svg-trafficlight?branch=master)
+[![Build Status](https://travis-ci.org/davorg/svg-trafficlight.svg?branch=master)](https://travis-ci.org/davorg/svg-trafficlight) [![Coverage Status](https://coveralls.io/repos/github/davorg/svg-trafficlight/badge.svg?branch=master)](https://coveralls.io/github/davorg/svg-trafficlight?branch=master)
 
 ## Installation
 
 This module can be downloaded from CPAN at:
 
-    https://metacpan.org/release/SVG-TrafficLight
+* [https://metacpan.org/release/SVG-TrafficLight](https://metacpan.org/release/SVG-TrafficLight)
     
 (See the "Download" link on the left.)
     
@@ -28,7 +26,7 @@ installation tool, like `cpan` or `cpanm`.
 
 The code is available on Github
 
-    https://github.com/davorg/svg-trafficlight
+* [https://github.com/davorg/svg-trafficlight](https://github.com/davorg/svg-trafficlight)
     
 ## Copyright
 
