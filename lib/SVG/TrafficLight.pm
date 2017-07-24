@@ -27,7 +27,7 @@ package SVG::TrafficLight;
 use Moose;
 use SVG;
 
-our $VERSION = '0.1.1';
+our $VERSION = '0.1.2';
 
 =head1 ATTRIBUTES AND METHODS
 
@@ -282,7 +282,21 @@ three lights are on or off.
 
 The default sequence demonstates the full standard British traffic light
 sequence of green, amber, red, red and amber, green. This can be changed
-when creating the object.
+when creating the object. For example here is how to reproduct the green,
+amber, red, green sequence that is used in many countries.
+
+    my $tl = SVG::TrafficLight->new({
+      sequence => [
+        { red => 0, amber => 0, green => 1 },
+        { red => 0, amber => 1, green => 0 },
+        { red => 1, amber => 0, green => 0 },
+        { red => 0, amber => 0, green => 1 },
+      ],
+    });
+
+You don't need to reproduce sequences that are seen in the real world, The
+following code, for example, gives a sequence consisting of two steps - one
+where all lights are off followed by one where all lights are on.
 
     my $tl = SVG::TrafficLight->new({
       sequence => [

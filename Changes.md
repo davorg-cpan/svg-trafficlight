@@ -1,5 +1,15 @@
 # Change Log
 
+## [0.1.2] - 2017-07-24
+
+### Added
+
+- Added files containing licence details.
+
+### Fixed
+
+- Expanded examples in the documentation for `sequence` (thanks to Matthew Persico for the suggestion.)
+
 ## [0.1.1] - 2017-07-22
 
 ### Added
