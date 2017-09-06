@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.3] - 2017-09-06
+
+### Fixed
+
+- Fixed some packaging issues.
+
 ## [0.1.2] - 2017-07-24
 
 ### Added
