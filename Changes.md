@@ -20,7 +20,7 @@
 
 ### Added
 
-- Added README.md (actually added in previous release, but now I've added it to the MANIFEST so it will be included in the distribution) 
+- Added README.md (actually added in previous release, but now I've added it to the MANIFEST so it will be included in the distribution)
 
 ## [0.1.0] - 2017-07-22
 
@@ -43,7 +43,7 @@
 - Added .travis.yml
 
 ## [0.0.1] - 2017-07-10
- 
+
 ### Added
- 
+
 - All the things. Release early, release often.
