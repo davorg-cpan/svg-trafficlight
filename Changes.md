@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.4] - 2020-12-22
+
+### Added
+
+- Bugtracker details
+- CI stuff
+
 ## [0.1.3] - 2017-09-06
 
 ### Fixed

@@ -27,7 +27,7 @@ package SVG::TrafficLight;
 use Moose;
 use SVG;
 
-our $VERSION = '0.1.3';
+our $VERSION = '0.1.4';
 
 =head1 ATTRIBUTES AND METHODS
 
