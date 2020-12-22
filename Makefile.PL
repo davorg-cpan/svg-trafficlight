@@ -17,10 +17,10 @@ WriteMakefile(
     'meta-spec' => { version => 2 },
     resources => {
       repository => {
-      type => 'git',
-      url  => 'https://github.com/davorg/svg-trafficlight.git',
-      web  => 'https://github.com/davorg/svg-trafficlight',
+        type => 'git',
+        url  => 'https://github.com/davorg/svg-trafficlight.git',
+        web  => 'https://github.com/davorg/svg-trafficlight',
+      },
     },
-   },
- }
+  },
 );
