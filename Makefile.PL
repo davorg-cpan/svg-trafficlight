@@ -21,6 +21,9 @@ WriteMakefile(
         url  => 'https://github.com/davorg/svg-trafficlight.git',
         web  => 'https://github.com/davorg/svg-trafficlight',
       },
+      bugtracker => {
+        web  => 'https://github.com/davorg/svg-trafficlight/issues',
+      },
     },
   },
 );
