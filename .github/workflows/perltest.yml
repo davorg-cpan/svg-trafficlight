@@ -26,6 +26,15 @@ jobs:
         uses: shogo82148/actions-setup-perl@v1
         with:
           perl-version: ${{ matrix.perl }}
-      - run: perl -V
-      - run: cpanm --installdeps .
-      - run: prove -lv t
+      - name: Perl version
+        run: perl -V
+      - name: Install modules
+        run: cpanm --installdeps .
+      - name: Archive CPAN logs
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: cpan_log
+          path: /home/runner/.cpanm/work/*/build.log
+      - name: Run tests
+        run: prove -lv t
