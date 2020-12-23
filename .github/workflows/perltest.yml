@@ -28,6 +28,8 @@ jobs:
           perl-version: ${{ matrix.perl }}
       - name: Perl version
         run: perl -V
+      - name: Where are we?
+        run: pwd
       - name: Install modules
         run: cpanm --installdeps .
       - name: Archive CPAN logs
