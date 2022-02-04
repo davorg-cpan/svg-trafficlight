@@ -34,7 +34,6 @@ jobs:
         run: cpanm --installdeps .
       - name: Archive CPAN logs
         if: ${{ failure() }}
-        working-directory: $HOME
         uses: actions/upload-artifact@v2
         with:
           name: cpan_log
