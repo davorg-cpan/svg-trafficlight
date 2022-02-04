@@ -280,9 +280,9 @@ Defines a sequence of traffic lights to display. This is an array reference.
 Each element in the array is a hash reference which defines which of the
 three lights are on or off.
 
-The default sequence demonstates the full standard British traffic light
+The default sequence demonstrates the full standard British traffic light
 sequence of green, amber, red, red and amber, green. This can be changed
-when creating the object. For example, here is how to reproduct the green,
+when creating the object. For example, here is how to reproduce the green,
 amber, red, green sequence that is used in many countries.
 
     my $tl = SVG::TrafficLight->new({
@@ -359,12 +359,12 @@ The x co-ordinate of the top-left corner of the light set.
 
 =item $y
 
-The  co-ordinate of the top left corner of the light set.
+The y co-ordinate of the top left corner of the light set.
 
 =item \%lights
 
 A reference to a hash indicating which lights should be turned on or off.
-The keys in the has should be the names of the lights in the light set (red,
+The keys in the hash should be the names of the lights in the light set (red,
 amber and green) and the associated values should be a 1 (to indicate that the
 light is on) or a 0 (to indicate that the light is off).
 
