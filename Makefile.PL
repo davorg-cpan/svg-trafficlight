@@ -18,11 +18,11 @@ WriteMakefile(
     resources => {
       repository => {
         type => 'git',
-        url  => 'https://github.com/davorg/svg-trafficlight.git',
-        web  => 'https://github.com/davorg/svg-trafficlight',
+        url  => 'https://github.com/davorg-cpan/svg-trafficlight.git',
+        web  => 'https://github.com/davorg-cpan/svg-trafficlight',
       },
       bugtracker => {
-        web  => 'https://github.com/davorg/svg-trafficlight/issues',
+        web  => 'https://github.com/davorg-cpan/svg-trafficlight/issues',
       },
     },
   },
