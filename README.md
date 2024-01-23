@@ -2,7 +2,7 @@
 
 Perl module for drawing traffic lights using SVG
 
-[![Build Status](https://travis-ci.org/davorg/svg-trafficlight.svg?branch=master)](https://travis-ci.org/davorg/svg-trafficlight) [![Coverage Status](https://coveralls.io/repos/github/davorg/svg-trafficlight/badge.svg?branch=master)](https://coveralls.io/github/davorg/svg-trafficlight?branch=master)
+[![Build Status](https://github.com/davorg-cpan/svg-trafficlight/actions/workflows/perltest.yml/badge.svg?branch=master)](https://github.com/davorg-cpan/svg-trafficlight/actions/workflows/perltest.yml) [![Coverage Status](https://coveralls.io/repos/github/davorg-cpan/svg-trafficlight/badge.svg?branch=master)](https://coveralls.io/github/davorg-cpan/svg-trafficlight?branch=master)
 
 ## Installation
 
